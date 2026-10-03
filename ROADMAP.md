@@ -16,24 +16,17 @@ The calendar assumes an initial funded start on 10 January 2027 and requires con
 
 ## Cost basis and phase allocation
 
-Engineering estimates use five workdays per week, including Sunday. William's planned allocation is 10 hours/day at an estimated $100/hour; Jefferey's is 6 hours/day at an estimated $100/hour. Over twelve weeks this is 600 and 360 hours respectively. Availability is not itself proof of required effort: hours must map to future integration tasks and exclude ordinary operations, previously completed work and duplicate billing.
+Costs are grouped by integration work, testing and services. Engineering is estimated at 960 hours at $100/hour across the twelve-week build. Operator acceptance and regression testing use a combined $10,500 fixed allowance. Pilot coordination and testing logistics total $8,000. Detailed task estimates remain subject to final review.
 
-Fredrick's proposed $6,000 fixed fee covers approximately 150 hours of operator acceptance/readiness work. Ebenezer's proposed $4,500 covers approximately 150 hours of independent operator regression/retesting. Kenneth's proposed $6,000 covers approximately 100 hours of pilot coordination and structured feedback. These fixed fees are planning estimates, not market-rate claims or agreed contracts. Technical security verification remains with the engineers; operator testing does not replace an external audit.
-
-| Cost and delivery owner | Phase 1 | Phase 2 | Phase 3 | Total |
+| Cost category | Phase 1 | Phase 2 | Phase 3 | Total |
 |---|---:|---:|---:|---:|
-| William: 150 / 150 / 300 engineering hours | $15,000 | $15,000 | $30,000 | $60,000 |
-| Jefferey: 90 / 90 / 180 engineering hours | $9,000 | $9,000 | $18,000 | $36,000 |
-| Fredrick: operator acceptance and release readiness | $1,000 | $2,000 | $3,000 | $6,000 |
-| Ebenezer: independent operator QA and regression | $750 | $1,500 | $2,250 | $4,500 |
-| Kenneth: narrow pilot coordination and user feedback | $0 | $2,250 | $3,750 | $6,000 |
-| Narrow user-testing logistics | $0 | $750 | $1,250 | $2,000 |
-| Incremental integration API/custody service allowance | $2,250 | $2,250 | $4,500 | $9,000 |
+| Integration engineering | $24,000 | $24,000 | $48,000 | $96,000 |
+| Operator acceptance, regression and release testing | $1,750 | $3,500 | $5,250 | $10,500 |
+| Pilot coordination and user-testing logistics | $0 | $3,000 | $5,000 | $8,000 |
+| Incremental Stellar API/custody services | $2,250 | $2,250 | $4,500 | $9,000 |
 | **Estimated phase costs / request** | **$28,000** | **$32,750** | **$62,750** | **$123,500** |
 
-The $9,000 service allowance uses the upper applicant estimate of $3,000/month for three monthly billing periods. Phase attribution is proportional to the 3/3/6-week delivery split; actual invoices and billing dates may differ. Include only the incremental Stellar-related portion, confirm network/asset/signing compatibility and apportion shared services. Ordinary ongoing custody subscriptions and unrelated-network use are excluded. The custody subscription is already within this combined allowance, not an additional fee. If the justified cost is lower, revise the allowance rather than spend to its ceiling.
-
-Kenneth's $6,000 plus $2,000 logistics constitute the full $8,000 user-validation allowance. Do not add another $8,000 or charge promotional influence, trading rewards or broad user acquisition to this request.
+The $9,000 service allowance estimates $3,000/month for three billing periods, including the custody subscription. Only incremental Stellar-related costs supported by actual invoices are included. User testing excludes trading incentives and broad acquisition. The categories are allocated across the deliverables below and are counted once.
 
 ## Funded deliverables and verification
 
@@ -45,7 +38,7 @@ Phase budgets above are cost-basis allocations across the following outputs; the
 | 1 | Trustless Work escrow roles and supported lifecycle | Funding, approval, release and supported dispute/refund paths with role tests |
 | 1 | Escrow/ledger accounting and idempotency | Reconciliation, replay and uncertain-submission tests |
 | 1 | Incremental Flutter/web/operator MVP and implemented API contracts | Recorded acceptance flows and reproducible MVP report |
-| 1 | Fredrick/Ebenezer operator acceptance | Independent permission/approval cases and defect evidence |
+| 1 | Operator acceptance testing | Independent permission/approval cases and defect evidence |
 | 2 | SDP recipient onboarding, payout batches and separate preparation/approval | Supported testnet recipient and batch acceptance flows |
 | 2 | End-to-end interfaces, observation, recovery and reconciliation | Customer/operator flows, out-of-order and failed/uncertain transaction tests |
 | 2 | Threat model, monitoring, technical control checks and fault simulation | Reviewed threat model, alert owners, incident simulations and regression reports |
@@ -73,7 +66,7 @@ Phase costs above are distinct from SCF's 10%/20%/30%/40% milestone payments.
 | Final milestone and agreed onchain outcome | 40% | $49,400 |
 | **Total** | **100%** | **$123,500** |
 
-Payments follow acceptance/review and are not guaranteed cash before each phase. If costs follow the phase estimates, cumulative spend before MVP approval is $28,000 against $12,350 received, implying $15,650 to bridge. Before testnet approval, cumulative spend is $60,750 against $37,050 received, implying $23,700 to bridge. Before final approval, cumulative spend is $123,500 against $74,100 received, implying $49,400 to bridge. Actual timing depends on invoices, work payments and SCF review; company financing availability must be confirmed separately.
+Payments follow milestone review. Phase costs differ from the SCF payment schedule; any interim funding is arranged separately by ApkXchange.
 
 The final milestone requires the panel-agreed onchain outcome described in [Validation](VALIDATION.md), not mainnet deployment alone.
 
