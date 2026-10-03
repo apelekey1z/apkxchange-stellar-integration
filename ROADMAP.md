@@ -28,6 +28,31 @@ Costs are grouped by integration work, testing and services. Engineering is esti
 
 The $9,000 service allowance estimates $3,000/month for three billing periods, including the custody subscription. Only incremental Stellar-related costs supported by actual invoices are included. User testing excludes trading incentives and broad acquisition. The categories are allocated across the deliverables below and are counted once.
 
+## Engineering hours matched to the delivery weeks
+
+These are combined engineering person-hours across two contributors, not elapsed calendar hours. The planned capacity is 16 combined hours/day × 5 working days/week = 80 hours/week. Tranche 1 covers 3 weeks × 80 = 240 hours; tranche 2 covers 3 weeks × 80 = 240 hours; tranche 3 covers all 6 remaining weeks × 80 = 480 hours, including mainnet build, user-validation fixes, reporting and the final completion buffer. Total: 12 weeks × 80 = 960 hours at $100/hour = $96,000.
+
+| Phase | Engineering work category | Estimated hours | Rate | Cost |
+|---|---|---:|---:|---:|
+| 1 | Stellar account/signing adapter and asset/network validation | 70 | $100/hour | $7,000 |
+| 1 | Trustless Work escrow integration | 80 | $100/hour | $8,000 |
+| 1 | Escrow/ledger accounting and duplicate protection | 50 | $100/hour | $5,000 |
+| 1 | Flutter/web/operator MVP and API integration | 40 | $100/hour | $4,000 |
+| **1 subtotal — 3 weeks** | | **240** | | **$24,000** |
+| 2 | Stellar Disbursement Platform integration | 80 | $100/hour | $8,000 |
+| 2 | End-to-end Flutter/web/operator journeys | 50 | $100/hour | $5,000 |
+| 2 | Transaction observation, recovery and reconciliation | 60 | $100/hour | $6,000 |
+| 2 | Threat model, onchain monitoring and fault verification | 50 | $100/hour | $5,000 |
+| **2 subtotal — 3 weeks** | | **240** | | **$24,000** |
+| 3 | Mainnet deployment and signing/approval controls | 120 | $100/hour | $12,000 |
+| 3 | Escrow/dispute and settlement failure hardening | 120 | $100/hour | $12,000 |
+| 3 | Onchain attribution, observation and reconciliation reporting | 120 | $100/hour | $12,000 |
+| 3 | Pilot fixes, release QA/recovery and integration handover | 120 | $100/hour | $12,000 |
+| **3 subtotal — 6 weeks** | | **480** | | **$48,000** |
+| **Total — 12 weeks** | | **960** | | **$96,000** |
+
+The hours allocate the existing engineering budget rather than add new charges. Operator testing and pilot/logistics remain fixed work-package estimates; API/custody services remain subscription/service estimates rather than hourly labor.
+
 ## Funded deliverables and verification
 
 Phase budgets above are cost-basis allocations across the following outputs; the work below is not billed a second time as separate allowances.
