@@ -28,9 +28,9 @@ Soroswap and other swap integrations are outside this application scope. GHS/RMB
 
 ## Delivery proposal
 
-The SCF request is $150,000, allocated $45,000 / $45,000 / $60,000 across three delivery milestones. The indicative twelve-week schedule runs from 10 January to 3 April 2027, subject to funding confirmation and agreement with SCF. Work estimates and named capacity require final validation before submission.
+The proposed SCF request is $123,500, with estimated phase costs of $28,000 / $32,750 / $62,750 across three delivery milestones. Phase costs differ from the SCF payment percentages; see the roadmap for the funding schedule. The indicative twelve-week schedule runs from 10 January to 3 April 2027, subject to funding confirmation and agreement with SCF. The budget uses team-provided engineering time/rate estimates and proposed fixed testing fees. Detailed task effort, fees and incremental service costs require final validation before submission.
 
-William Apelekey will lead hands-on integration work, with technical architecture/review responsibilities to be confirmed with CTO Jefferey Ashitey. Fredrick Apelekey and Kenneth Wireko support suitable operational acceptance and user validation work.
+ApkXchange has five operating team members. William Apelekey leads hands-on integration delivery alongside CTO Jefferey Ashitey. Fredrick Apelekey and Ebenezer (Administrator 2) support operator acceptance and regression testing; Kenneth Wireko coordinates narrow pilot sessions and structured user feedback. Only future integration-specific work is charged to this proposal.
 
 ## Documentation boundaries
 
