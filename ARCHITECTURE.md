@@ -10,6 +10,14 @@ Existing Flutter and web interfaces, identity checks, trade workflows and the in
 
 GHS collection or payout remains a separate authorized payment flow. SDP sends Stellar assets to supported recipients; it is not a GHS/RMB conversion service. No new token is proposed.
 
+## Planned customer and authorization workflow
+
+**Stellar disbursements:** ApkXchange plans to make Stellar USDC payouts available to all users who meet the applicable verification requirements and complete supported wallet onboarding. Customers can select this settlement option for eligible transactions, with confirmed payment status reflected in their account. Broad customer availability does not imply compatibility with every external wallet; the supported recipient route will be validated during integration.
+
+**Transaction authorization:** ApkXchange's backend will validate the customer, recipient, asset and amount before authorizing a transaction through a protected signing service. Signing credentials will remain outside the mobile and web applications. The team will validate the selected signing implementation during integration, including its Stellar transaction and Soroban authorization support.
+
+**P2P escrow:** USDC will be held in a Trustless Work escrow while the agreed trade conditions are fulfilled. Release will require the designated participant's approval. Disputed trades will follow a documented evidence-review process, with resolution performed through authorized contract roles. Ledger settlement will follow confirmed onchain results. Supported resolution and refund paths will be verified against the selected contract version.
+
 ## Components and boundaries
 
 ```mermaid
