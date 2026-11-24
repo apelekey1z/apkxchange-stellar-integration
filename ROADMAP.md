@@ -1,8 +1,8 @@
-# Proposed roadmap and budget
+# Roadmap and budget
 
-Review version, 3 October 2026. The proposed SCF request is $123,500. This is an estimate for future Stellar delivery, not an awarded grant, a supplier quote or guaranteed disbursement schedule. The applicant approved the revised request; fixed team fees, task effort and incremental service allocation still require final validation.
+Last updated 3 October 2026. We're requesting $123,500 from SCF. This is our estimate for the Stellar work ahead, not an awarded grant, a supplier quote or a guaranteed payment schedule. I've approved the revised request; we'll still confirm the fixed team fees, task effort and service costs before final submission.
 
-## Indicative delivery calendar
+## Delivery calendar
 
 | Phase | Period | Completion date | Estimated phase cost |
 |---|---|---|---:|
@@ -12,11 +12,11 @@ Review version, 3 October 2026. The proposed SCF request is $123,500. This is an
 | External-user validation, fixes and reporting | Weeks 10–11; 14–27 March | Part of tranche 3 | Part of $62,750 |
 | Final corrections and completion buffer | Week 12; 28 March–3 April | 3 April | Included in tranche 3 |
 
-The calendar assumes an initial funded start on 10 January 2027 and requires confirmation with SCF following award approval and payment. Mainnet rollout depends on technical, operational, partner and applicable regulatory prerequisites. Schedule changes require agreement; delays do not automatically extend approved deadlines.
+We've assumed a funded start on 10 January 2027, which we'll confirm with SCF after award approval and payment. Going to mainnet depends on our technical, operational, partner and regulatory readiness. Any schedule change needs SCF's agreement, and we understand a delay doesn't automatically move an approved deadline.
 
-## Cost basis and phase allocation
+## How the costs break down
 
-Costs are grouped by integration work, testing and services. Engineering is estimated at 960 hours at $100/hour across the twelve-week build. Operator acceptance and regression testing use a combined $10,500 fixed allowance. Pilot coordination and testing logistics total $8,000. Detailed task estimates remain subject to final review.
+We've grouped costs into integration work, testing and services. Engineering is 960 hours at $100/hour over the twelve weeks. Operator acceptance and regression testing is a fixed $10,500, and pilot coordination and testing logistics come to $8,000. We'll do a final review of the detailed task estimates before submission.
 
 | Cost category | Phase 1 | Phase 2 | Phase 3 | Total |
 |---|---:|---:|---:|---:|
@@ -26,11 +26,11 @@ Costs are grouped by integration work, testing and services. Engineering is esti
 | Incremental Stellar API/custody services | $2,250 | $2,250 | $4,500 | $9,000 |
 | **Estimated phase costs / request** | **$28,000** | **$32,750** | **$62,750** | **$123,500** |
 
-The $9,000 service allowance estimates $3,000/month for three billing periods, including the custody subscription. Only incremental Stellar-related costs supported by actual invoices are included. User testing excludes trading incentives and broad acquisition. The categories are allocated across the deliverables below and are counted once.
+The $9,000 for services is $3,000/month for three months, including our custody subscription. We only include extra Stellar-related costs we can back with real invoices. User testing doesn't include trading incentives or marketing. Each category is spread across the deliverables below and counted once.
 
-## Engineering hours matched to the delivery weeks
+## Engineering hours by week
 
-These are combined engineering person-hours across two contributors, not elapsed calendar hours. The planned capacity is 16 combined hours/day × 5 working days/week = 80 hours/week. Tranche 1 covers 3 weeks × 80 = 240 hours; tranche 2 covers 3 weeks × 80 = 240 hours; tranche 3 covers all 6 remaining weeks × 80 = 480 hours, including mainnet build, user-validation fixes, reporting and the final completion buffer. Total: 12 weeks × 80 = 960 hours at $100/hour = $96,000.
+These are combined hours for two engineers (our CTO and me), not calendar hours. The planned capacity is 16 combined hours/day × 5 working days/week = 80 hours/week. Tranche 1 covers 3 weeks × 80 = 240 hours; tranche 2 covers 3 weeks × 80 = 240 hours; tranche 3 covers all 6 remaining weeks × 80 = 480 hours, including mainnet build, user-validation fixes, reporting and the final completion buffer. Total: 12 weeks × 80 = 960 hours at $100/hour = $96,000.
 
 | Phase | Engineering work category | Estimated hours | Rate | Cost |
 |---|---|---:|---:|---:|
@@ -51,13 +51,13 @@ These are combined engineering person-hours across two contributors, not elapsed
 | **3 subtotal — 6 weeks** | | **480** | | **$48,000** |
 | **Total — 12 weeks** | | **960** | | **$96,000** |
 
-The hours allocate the existing engineering budget rather than add new charges. Operator testing and pilot/logistics remain fixed work-package estimates; API/custody services remain subscription/service estimates rather than hourly labor.
+These hours split the engineering budget above; they aren't an extra charge. Operator testing and pilot logistics are fixed amounts, and API/custody services are subscription costs, not hourly work.
 
-## Funded deliverables and verification
+## What you'll be able to check at each phase
 
-Phase budgets above are cost-basis allocations across the following outputs; the work below is not billed a second time as separate allowances.
+The phase budgets above pay for the work below. None of it is billed twice.
 
-| Phase | Future Stellar work | Reviewable completion evidence |
+| Phase | Stellar work | How you can verify it |
 |---|---|---|
 | 1 | Account/signing adapter and asset/network validation | Verified transaction-intent signing and account tests |
 | 1 | Trustless Work escrow roles and supported lifecycle | Funding, approval, release and supported dispute/refund paths with role tests |
@@ -73,11 +73,11 @@ Phase budgets above are cost-basis allocations across the following outputs; the
 | 3 | Pilot defect remediation, release QA and recovery exercises | Scoped fixes, regression/readiness reports and recovery evidence |
 | 3 | Narrow external-user validation and operational handover | Anonymized findings, retests and reviewed instructions |
 
-Initial architecture and component feasibility must be resolved before final application submission. Phase 1 funds implementation, integration acceptance fixtures and MVP verification rather than initial system design or reimbursement for these application documents.
+We'll settle the architecture and confirm the components work before we submit. Phase 1 pays for building, integration test fixtures and MVP verification, not for initial design or for writing these documents.
 
-## Separately financed company costs
+## Costs we cover ourselves
 
-Company-owned custody/liquidity reserves, gift-card trading inventory, VASP acquisition, legal/entity-registration costs, external security audits and routine operations are outside this SCF Build request. The applicant separately estimates external audit costs at $2,000/month, or $6,000 over three months. VASP/legal and reserve amounts remain separately budgeted and unconfirmed; no licensing completion or committed capital is asserted.
+We're not asking SCF to pay for our custody and liquidity reserves, gift-card inventory, VASP acquisition, legal and company registration, external security audits, day-to-day operations or our on/off-ramp rollout. We estimate external audits separately at $2,000/month, or $6,000 over three months. Our VASP, legal and reserve budgets are separate and not yet confirmed, and we're not claiming completed licensing or committed capital.
 
 ## SCF payments and cash flow
 
@@ -91,8 +91,8 @@ Phase costs above are distinct from SCF's 10%/20%/30%/40% milestone payments.
 | Final milestone and agreed onchain outcome | 40% | $49,400 |
 | **Total** | **100%** | **$123,500** |
 
-Payments follow milestone review. Phase costs differ from the SCF payment schedule; any interim funding is arranged separately by ApkXchange.
+Payments come after each milestone review. Because our phase costs don't match SCF's payment schedule, we'll fund any gap in between ourselves.
 
-The final milestone requires the panel-agreed onchain outcome described in [Validation](VALIDATION.md), not mainnet deployment alone.
+The final milestone needs the onchain outcome agreed with the panel (see [Validation](VALIDATION.md)). Deploying to mainnet on its own isn't enough.
 
 References: [SCF Integration Track](https://stellar.gitbook.io/scf-handbook/scf-awards/build-award/integration-track), [Budget and Deliverable Guidelines](https://stellar.gitbook.io/scf-handbook/scf-awards/build-award/budget-and-deliverable-guidelines).

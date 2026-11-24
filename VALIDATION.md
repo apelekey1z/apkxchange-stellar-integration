@@ -1,25 +1,25 @@
-# Proposed validation and onchain outcome
+# Validation and onchain outcome
 
-This is a future acceptance plan, not a report of completed tests or existing Stellar usage. The proposed threshold remains subject to SCF panel ratification.
+This is how we'll prove the integration works once it's built. It's a plan, not a report of tests we've already run or existing Stellar usage, and the target below needs the SCF panel's agreement.
 
-## Integration verification
+## What we'll verify
 
-- Confirm signer/account compatibility, allowed assets/networks and verified transaction intents.
-- Demonstrate supported escrow funding, release and dispute/resolution paths, including unauthorized and stale-state rejection.
-- Demonstrate supported SDP recipient onboarding, independently approved batches and per-recipient reconciliation.
-- Verify duplicate/out-of-order handling, uncertain submission recovery and single-count ledger effects.
-- Complete the threat model, monitoring ownership and recovery exercises.
-- Obtain controlled external-user acceptance evidence before final completion.
+- Our signer and account setup works, only allowed assets and networks are accepted, and every transaction matches its recorded intent.
+- Escrow funding, release and dispute resolution work, and unauthorized or out-of-date actions are rejected.
+- SDP recipient onboarding works, batches are approved by a second person, and every recipient is reconciled.
+- Duplicate and out-of-order events are handled, uncertain submissions are recovered, and the ledger counts everything once.
+- The threat model is done, every alert has an owner, and we've practised recovery.
+- Real external users have tested it in a controlled pilot before we call it complete.
 
-## Outcome metric
+## How we'll measure success
 
-Primary metric: genuine external-user USDC payment volume successfully settled on Stellar and attributable to ApkXchange's registered integration accounts and escrow contracts.
+Our main measure is USDC payment volume from genuine external users, settled on Stellar through ApkXchange's registered accounts and escrow contracts.
 
-Proposed completion target: at least $10,000 in settled USDC payment volume over 14 consecutive days. The indicative measurement period is 14–27 March 2027, within weeks 10–11 of the proposed schedule. The threshold, measurement window and attributable onchain footprint will be agreed with the SCF panel. Calendar dates assume an initial funded start on 10 January 2027 and require confirmation following award approval and payment. This is a proposed pilot acceptance target, not existing Stellar traction or a guaranteed forecast.
+Our target: at least $10,000 in settled USDC payments over 14 consecutive days, roughly 14–27 March 2027 (weeks 10–11 of the schedule). We'll agree the threshold, the window and which onchain accounts count with the SCF panel. The dates assume a funded start on 10 January 2027 and will be confirmed after award approval and payment. It's a pilot target we're setting ourselves, not existing Stellar traction or a guaranteed forecast. Our on/off-ramp customers, who already move between cedis and stablecoins with us, are where we expect this volume to come from.
 
-Tracking and reporting: record each completed economic payment against its internal trade/payment ID and confirmed Stellar transaction references. Verify the correct network, USDC asset identity, successful transaction result, amount and approved destination. Reconcile the report with the application ledger and registered onchain accounts/contracts. Count each economic payment once: funding an escrow, releasing it and subsequently paying out the same value must not be added together as separate volume.
+How we'll track it: we record each completed payment against its internal trade/payment ID and confirmed Stellar transaction references. We check the network, the USDC asset, that the transaction succeeded, the amount and the approved destination, then reconcile the report with our ledger and our registered accounts and contracts. Each payment counts once: funding an escrow, releasing it and later paying out the same money are never added up as separate volume.
 
-Exclude testnet activity, team-controlled transfers, circular/self-directed transfers, failed transactions and artificial or incentivized volume. Refunds and reversals are removed from eligible settled volume and shown separately. Record exclusions and provide a reproducible summary with eligible transaction references, aggregated volume and supporting reconciliation evidence. Public reporting will not contain customer identity records, gift-card material or private account mappings.
+We leave out testnet activity, transfers controlled by our team, circular or self-directed transfers, failed transactions and anything artificial or incentivized. Refunds and reversals come off the total and are shown separately. We'll list what we excluded and publish a summary anyone can reproduce, with the eligible transaction references, the total volume and our reconciliation. It won't include customer identities, gift-card codes or which account belongs to whom.
 
-Completion evidence: a reproducible report demonstrating the panel-agreed threshold within the agreed measurement period, together with milestone acceptance and reconciliation evidence. Mainnet deployment alone does not satisfy this outcome.
+To show we're done, we'll provide that report showing we hit the agreed target in the agreed window, along with our milestone acceptance and reconciliation evidence. Being live on mainnet isn't enough on its own.
 
